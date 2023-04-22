@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCB96BB29F3828B004512D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96BA29F3828B004512D0 /* AppDelegate.swift */; };
+		EDCB96BD29F3828B004512D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96BC29F3828B004512D0 /* SceneDelegate.swift */; };
+		EDCB96BF29F3828B004512D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96BE29F3828B004512D0 /* ViewController.swift */; };
+		EDCB96C229F3828B004512D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCB96C029F3828B004512D0 /* Main.storyboard */; };
+		EDCB96C529F3828B004512D0 /* Perfect_Circle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96C329F3828B004512D0 /* Perfect_Circle.xcdatamodeld */; };
+		EDCB96C729F3828B004512D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCB96C629F3828B004512D0 /* Assets.xcassets */; };
+		EDCB96CA29F3828B004512D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCB96C829F3828B004512D0 /* LaunchScreen.storyboard */; };
+		EDCB96D529F3828C004512D0 /* Perfect_CircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96D429F3828C004512D0 /* Perfect_CircleTests.swift */; };
+		EDCB96DF29F3828C004512D0 /* Perfect_CircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96DE29F3828C004512D0 /* Perfect_CircleUITests.swift */; };
+		EDCB96E129F3828C004512D0 /* Perfect_CircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB96E029F3828C004512D0 /* Perfect_CircleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCB96D129F3828C004512D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCB96AF29F3828A004512D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCB96B629F3828A004512D0;
+			remoteInfo = "Perfect Circle";
+		};
+		EDCB96DB29F3828C004512D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCB96AF29F3828A004512D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCB96B629F3828A004512D0;
+			remoteInfo = "Perfect Circle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDCB96B729F3828A004512D0 /* Perfect Circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfect Circle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB96BA29F3828B004512D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDCB96BC29F3828B004512D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDCB96BE29F3828B004512D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDCB96C129F3828B004512D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDCB96C429F3828B004512D0 /* Perfect_Circle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Perfect_Circle.xcdatamodel; sourceTree = "<group>"; };
+		EDCB96C629F3828B004512D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCB96C929F3828B004512D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDCB96CB29F3828B004512D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCB96D029F3828C004512D0 /* Perfect CircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect CircleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB96D429F3828C004512D0 /* Perfect_CircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_CircleTests.swift; sourceTree = "<group>"; };
+		EDCB96DA29F3828C004512D0 /* Perfect CircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect CircleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB96DE29F3828C004512D0 /* Perfect_CircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_CircleUITests.swift; sourceTree = "<group>"; };
+		EDCB96E029F3828C004512D0 /* Perfect_CircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfect_CircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCB96B429F3828A004512D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96CD29F3828C004512D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96D729F3828C004512D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCB96AE29F3828A004512D0 = {
+			isa = PBXGroup;
+			children = (
+				EDCB96B929F3828A004512D0 /* Perfect Circle */,
+				EDCB96D329F3828C004512D0 /* Perfect CircleTests */,
+				EDCB96DD29F3828C004512D0 /* Perfect CircleUITests */,
+				EDCB96B829F3828A004512D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCB96B829F3828A004512D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB96B729F3828A004512D0 /* Perfect Circle.app */,
+				EDCB96D029F3828C004512D0 /* Perfect CircleTests.xctest */,
+				EDCB96DA29F3828C004512D0 /* Perfect CircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCB96B929F3828A004512D0 /* Perfect Circle */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB96BA29F3828B004512D0 /* AppDelegate.swift */,
+				EDCB96BC29F3828B004512D0 /* SceneDelegate.swift */,
+				EDCB96BE29F3828B004512D0 /* ViewController.swift */,
+				EDCB96C029F3828B004512D0 /* Main.storyboard */,
+				EDCB96C629F3828B004512D0 /* Assets.xcassets */,
+				EDCB96C829F3828B004512D0 /* LaunchScreen.storyboard */,
+				EDCB96CB29F3828B004512D0 /* Info.plist */,
+				EDCB96C329F3828B004512D0 /* Perfect_Circle.xcdatamodeld */,
+			);
+			path = "Perfect Circle";
+			sourceTree = "<group>";
+		};
+		EDCB96D329F3828C004512D0 /* Perfect CircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB96D429F3828C004512D0 /* Perfect_CircleTests.swift */,
+			);
+			path = "Perfect CircleTests";
+			sourceTree = "<group>";
+		};
+		EDCB96DD29F3828C004512D0 /* Perfect CircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB96DE29F3828C004512D0 /* Perfect_CircleUITests.swift */,
+				EDCB96E029F3828C004512D0 /* Perfect_CircleUITestsLaunchTests.swift */,
+			);
+			path = "Perfect CircleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCB96B629F3828A004512D0 /* Perfect Circle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCB96E429F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect Circle" */;
+			buildPhases = (
+				EDCB96B329F3828A004512D0 /* Sources */,
+				EDCB96B429F3828A004512D0 /* Frameworks */,
+				EDCB96B529F3828A004512D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perfect Circle";
+			productName = "Perfect Circle";
+			productReference = EDCB96B729F3828A004512D0 /* Perfect Circle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDCB96CF29F3828C004512D0 /* Perfect CircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCB96E729F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect CircleTests" */;
+			buildPhases = (
+				EDCB96CC29F3828C004512D0 /* Sources */,
+				EDCB96CD29F3828C004512D0 /* Frameworks */,
+				EDCB96CE29F3828C004512D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCB96D229F3828C004512D0 /* PBXTargetDependency */,
+			);
+			name = "Perfect CircleTests";
+			productName = "Perfect CircleTests";
+			productReference = EDCB96D029F3828C004512D0 /* Perfect CircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDCB96D929F3828C004512D0 /* Perfect CircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCB96EA29F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect CircleUITests" */;
+			buildPhases = (
+				EDCB96D629F3828C004512D0 /* Sources */,
+				EDCB96D729F3828C004512D0 /* Frameworks */,
+				EDCB96D829F3828C004512D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCB96DC29F3828C004512D0 /* PBXTargetDependency */,
+			);
+			name = "Perfect CircleUITests";
+			productName = "Perfect CircleUITests";
+			productReference = EDCB96DA29F3828C004512D0 /* Perfect CircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCB96AF29F3828A004512D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDCB96B629F3828A004512D0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EDCB96CF29F3828C004512D0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDCB96B629F3828A004512D0;
+					};
+					EDCB96D929F3828C004512D0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDCB96B629F3828A004512D0;
+					};
+				};
+			};
+			buildConfigurationList = EDCB96B229F3828A004512D0 /* Build configuration list for PBXProject "Perfect Circle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCB96AE29F3828A004512D0;
+			productRefGroup = EDCB96B829F3828A004512D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCB96B629F3828A004512D0 /* Perfect Circle */,
+				EDCB96CF29F3828C004512D0 /* Perfect CircleTests */,
+				EDCB96D929F3828C004512D0 /* Perfect CircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCB96B529F3828A004512D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB96CA29F3828B004512D0 /* LaunchScreen.storyboard in Resources */,
+				EDCB96C729F3828B004512D0 /* Assets.xcassets in Resources */,
+				EDCB96C229F3828B004512D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96CE29F3828C004512D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96D829F3828C004512D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCB96B329F3828A004512D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB96BF29F3828B004512D0 /* ViewController.swift in Sources */,
+				EDCB96C529F3828B004512D0 /* Perfect_Circle.xcdatamodeld in Sources */,
+				EDCB96BB29F3828B004512D0 /* AppDelegate.swift in Sources */,
+				EDCB96BD29F3828B004512D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96CC29F3828C004512D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB96D529F3828C004512D0 /* Perfect_CircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCB96D629F3828C004512D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB96E129F3828C004512D0 /* Perfect_CircleUITestsLaunchTests.swift in Sources */,
+				EDCB96DF29F3828C004512D0 /* Perfect_CircleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCB96D229F3828C004512D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCB96B629F3828A004512D0 /* Perfect Circle */;
+			targetProxy = EDCB96D129F3828C004512D0 /* PBXContainerItemProxy */;
+		};
+		EDCB96DC29F3828C004512D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCB96B629F3828A004512D0 /* Perfect Circle */;
+			targetProxy = EDCB96DB29F3828C004512D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDCB96C029F3828B004512D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCB96C129F3828B004512D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDCB96C829F3828B004512D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCB96C929F3828B004512D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCB96E229F3828C004512D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCB96E329F3828C004512D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCB96E529F3828C004512D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perfect Circle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-Circle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCB96E629F3828C004512D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Perfect Circle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-Circle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCB96E829F3828C004512D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-CircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Circle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perfect Circle";
+			};
+			name = Debug;
+		};
+		EDCB96E929F3828C004512D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-CircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Circle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Perfect Circle";
+			};
+			name = Release;
+		};
+		EDCB96EB29F3828C004512D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-CircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perfect Circle";
+			};
+			name = Debug;
+		};
+		EDCB96EC29F3828C004512D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nurmukhanbet.sertay.Perfect-CircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Perfect Circle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCB96B229F3828A004512D0 /* Build configuration list for PBXProject "Perfect Circle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB96E229F3828C004512D0 /* Debug */,
+				EDCB96E329F3828C004512D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCB96E429F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect Circle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB96E529F3828C004512D0 /* Debug */,
+				EDCB96E629F3828C004512D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCB96E729F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect CircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB96E829F3828C004512D0 /* Debug */,
+				EDCB96E929F3828C004512D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCB96EA29F3828C004512D0 /* Build configuration list for PBXNativeTarget "Perfect CircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB96EB29F3828C004512D0 /* Debug */,
+				EDCB96EC29F3828C004512D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDCB96C329F3828B004512D0 /* Perfect_Circle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDCB96C429F3828B004512D0 /* Perfect_Circle.xcdatamodel */,
+			);
+			currentVersion = EDCB96C429F3828B004512D0 /* Perfect_Circle.xcdatamodel */;
+			path = Perfect_Circle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDCB96AF29F3828A004512D0 /* Project object */;
+}
